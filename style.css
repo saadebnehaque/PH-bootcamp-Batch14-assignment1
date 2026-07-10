@@ -1,8 +1,78 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
-h1{
-    color: blueviolet;
+
+body {
+    background-color: pink;
+}
+
+/* common class */
+.btn {
+    border: none;
+    background-color: #1D4ED8;
+    color: white;
+    font-weight: bold;
+    padding: .773vw 2.578vw;
+    /* 12px 40px */
+    border-radius: .644vw;
+    /* 10px */
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+    font-size: 1.031vw;
+}
+
+.btn:hover {
+    background-color: #1844bd;
+}
+.btn:active{
+    scale: .95;
+}
+/* navbar */
+nav {
+    background-color: white;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1.611vw;
+    /*25px*/
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.515vw;
+    color: #0D1B2A;
+    font-size: 1.29vw;
+    /*20px*/
+    line-height: 1.418vw;
+    /* 22px */
+
+}
+
+.logo img {
+    width: 2.063vw;
+    /* 32px */
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1.547vw;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #575757;
+
 }
