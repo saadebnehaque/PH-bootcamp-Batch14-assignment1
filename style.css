@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    /* scroll-margin-top: 95px; */
+    scroll-margin-top: 6.125vw;
 }
 
 html {
@@ -27,6 +29,7 @@ html {
     cursor: pointer;
     /* font-size: 16px; */
     font-size: 1.031vw;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -160,8 +163,6 @@ nav {
 
 /* Speaker Section */
 #speaker {
-    /* scroll-margin-top: 95px; */
-    scroll-margin-top: 6.125vw;
     width: 90%;
     /* margin: 80px auto 0; */
     margin: 5.157vw auto 0;
@@ -352,11 +353,54 @@ nav {
 }
 
 
+/* Hackathon Section */
 
+#hackathon {
+    max-width: 90%;
+    margin: 8vw auto;
+    text-align: center;
+}
 
+.hackHeading h1 {
+    color: #0D1B2A;
+    font-size: 3.094vw;
+    margin-bottom: 0.773vw;
+}
 
+.hackHeading p {
+    color: #575757;
+    font-size: 1.031vw;
+}
 
+.hackContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.063vw;
+    margin-top: 3.61vw;
+}
 
+.hackCard {
+    padding: 2.063vw;
+    border: 0.064vw solid #e5e7eb;
+    border-radius: 0.773vw;
+    transition: all 250ms ease-in-out;
+}
+
+.hackCard:hover {
+    box-shadow: 0 0 0.644vw #00000083;
+    transform: translateY(-0.515vw);
+}
+
+.hackCard h3 {
+    color: #0D1B2A;
+    font-size: 1.289vw;
+    margin-bottom: 0.515vw;
+}
+
+.hackCard p {
+    color: #575757;
+    font-size: 0.902vw;
+}
 
 /* Footer */
 footer {
