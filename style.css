@@ -402,6 +402,65 @@ nav {
     font-size: 0.902vw;
 }
 
+
+
+/* Why Attend Section */
+#whyAttend {
+    max-width: 90%;
+    margin: 8vw auto;
+    text-align: center;
+}
+
+.whyHeading h1 {
+    color: #0D1B2A;
+    font-size: 3.094vw;
+    margin-bottom: 0.773vw;
+}
+
+.whyHeading p {
+    color: #575757;
+    font-size: 1.031vw;
+}
+
+.whyContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.063vw;
+    margin-top: 3.61vw;
+}
+
+.whyCard {
+    padding: 2.063vw;
+    border: 0.064vw solid #e5e7eb;
+    border-radius: 0.773vw;
+    transition: all 250ms ease-in-out;
+}
+
+.whyCard:hover {
+    box-shadow: 0 0 0.644vw #00000083;
+    transform: translateY(-0.515vw);
+}
+
+.whyCard img {
+    width: 3.094vw;
+    margin-bottom: 1.031vw;
+}
+
+.whyCard h4 {
+    color: #0D1B2A;
+    font-size: 1.289vw;
+    margin-bottom: 0.515vw;
+}
+
+.whyCard p {
+    color: #575757;
+    font-size: 0.902vw;
+}
+
+
+
+
+
 /* Footer */
 footer {
     width: 100%;
