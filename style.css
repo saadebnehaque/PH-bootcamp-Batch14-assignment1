@@ -457,6 +457,32 @@ nav {
     font-size: 0.902vw;
 }
 
+/* Registration Section */
+
+#registration {
+    max-width: 50%;
+    margin: 8vw auto;
+    text-align: center;
+}
+
+.regHeading { margin-bottom: 2vw; }
+
+.regForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+
+.regForm input, .regForm select {
+    padding: 1vw;
+    border: 0.064vw solid #e5e7eb;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+}
+
+.regForm button {
+    width: 100%;
+}
 
 
 
