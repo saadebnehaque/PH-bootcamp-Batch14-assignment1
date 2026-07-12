@@ -109,7 +109,7 @@ nav {
 
 /* Hero section */
 .hero {
-    margin-top: 95px;
+    /* margin-top: 95px; */
     margin-top: 6.125vw;
     background-image: linear-gradient(#00000099 30%, #00000000 70%),
         linear-gradient(135deg, #00000000 0%, #000000e0 87%),
@@ -160,6 +160,8 @@ nav {
 
 /* Speaker Section */
 #speaker {
+    /* scroll-margin-top: 95px; */
+    scroll-margin-top: 6.125vw;
     width: 90%;
     /* margin: 80px auto 0; */
     margin: 5.157vw auto 0;
@@ -190,6 +192,13 @@ nav {
     border: 0.064vw solid #e5e7eb;
     /* border-radius: 12px; */
     border-radius: 0.773vw;
+    transition: all 250ms ease-in-out;
+}
+
+.speakerCard:hover {
+    /* box-shadow: 0 0 10px #00000083; */
+    box-shadow: 0 0 0.644vw #00000083;
+    scale: 1.005;
 }
 
 .speakerCardImg {
@@ -340,4 +349,100 @@ nav {
 
 .pricingFeatures li::marker {
     color: #2563EB;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #0D1B2A;
+    /* padding: 32px 0; */
+    padding: 2.063vw 0;
+    display: flex;
+    flex-direction: column;
+    /* gap: 16px; */
+    gap: 1.031vw;
+}
+
+footer hr {
+    /* border: 1px solid #ffffff66; */
+    border: 0.064vw solid #ffffff66;
+}
+
+.footContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+
+.footLogo {
+    /* width: 135px; */
+    width: 8.704vw;
+}
+
+.socialLinks {
+    display: flex;
+    /* gap: 4px; */
+    gap: 0.257vw;
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+    padding: 0.644vw;
+    /* border: 1px solid white; */
+    border: 0.0644vw solid white;
+    border-radius: 100%;
+    /* width: 20px; */
+    width: 1.289vw;
+    /* height: 20px; */
+    height: 1.289vw;
+    box-sizing: content-box;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.icon:active {
+    scale: 0.9;
+}
+
+.icon img {
+    width: 100%;
+
+}
+
+.copyRight {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff66;
+    /* font-size: 16px; */
+    font-size: 1.031vw;
+
+}
+
+.copyRight div {
+    display: flex;
+    align-items: center;
+    /* gap: 24px; */
+    gap: 1.547vw;
+}
+
+.copyRight a {
+    text-decoration: none;
+    color: #ffffff66;
 }
