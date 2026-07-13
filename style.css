@@ -465,21 +465,37 @@ nav {
     text-align: center;
 }
 
-.regHeading { margin-bottom: 2vw; }
-
+.regHeading {
+    margin-bottom: 2vw;
+}
+.regHeading h1 {
+    color: #0D1B2A;
+    font-size: 3.094vw;
+    margin-bottom: 0.773vw;
+}
+.regHeading p {
+    color: #575757;
+    font-size: 1.031vw;
+}
 .regForm {
     display: flex;
     flex-direction: column;
     gap: 1.5vw;
 }
 
-.regForm input, .regForm select {
+.regForm input,
+.regForm select {
     padding: 1vw;
     border: 0.064vw solid #e5e7eb;
     border-radius: 0.5vw;
     font-size: 1vw;
 }
-
+.regForm input:focus,
+.regForm select:focus {
+    outline: none;
+    border-color: #1D4ED8;
+    box-shadow: 0 0 0.5vw #1D4ED8;
+}
 .regForm button {
     width: 100%;
 }
